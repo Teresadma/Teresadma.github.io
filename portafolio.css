@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+:root{
+    --myColorVar: #a3c1ad;
+    --myColorVar2:	#c2e0b8;
+    --myVarColor3: #ffffff;
+    --myVarColor4: #dfeede;
+    --myColorVar5:	#317873;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 50px;
+    font-size: 25px;
+    color: var(--myColorVar);
+    font-weight: bold;
+    border-bottom: 1px solid var(--myColorVar);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+       
+    /* position:fixed; */
+}
+    .nav a{
+        font-family: 'Inconsolata', monospace;
+        text-decoration: none;
+        color: #317873;
+    }
+    .nav_link:hover{
+        color:black;
+        font-weight: bold;
+        border-bottom: 1px solid black;
+    }
+    .nav_link:active{
+        color:var(--myColorVar2);
+        background-color:var(--myColorVar5);
+    }
+main{
+    background-color: var(--myColorVar2);
+    
+}
+header{
+    background-color: var(--myVarColor3);
+}
+.centrar{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:var(--myVarColor3) ;
+    border: 1px solid var(--myColorVar);    
+}
+
+    .me{
+        height: 350px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .name{
+            height: 150px;
+            width: 95%;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+            .yo{
+                font-size: 70px;
+                font-family: 'Roboto Mono', monospace;
+            }
+            .born{
+                font-size: 30px;
+            }
+        .estudios{
+            font-family: 'Roboto Mono', monospace;
+            height: 80px;
+            width: 90%;
+            font-size: 20px;
+            text-align: center;         
+        }
+            .estudios span{
+                color:var(--myColorVar);
+                font-weight: bold;
+            }
+        .place{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 18px;
+
+        }
+    .tech{
+        height: 220px;
+       
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+        .foto:hover{
+            transform: scale(1.1);
+            transition: all 1s linear;
+        }
+        .javascript{
+            width: 25%;
+            height: 160px;
+            display:flex;
+            flex-direction: column;         
+            align-items: center;
+        }
+            .javascript div{
+                height: 20%;
+                font-family: 'Inconsolata', monospace;
+                font-size: 25px;
+            }
+            .javascript img{
+                width: 45%;
+                height: 80%;
+            }
+            .javascript p{
+                font-size: 20px;
+                
+            }
+        .html{
+                width: 25%;
+                height: 160px;
+                display:flex;
+                flex-direction: column;
+               
+                align-items: center;
+        }
+            .html div{
+                    height: 20%;
+                    font-family: 'Inconsolata', monospace;
+                    font-size: 25px;
+            }
+            .html img{
+                    width: 45%;
+                    height: 80%;
+            }
+            .html p{
+                font-size: 20px;
+                
+            }
+        .css{
+            width: 25%;
+            height: 160px;
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .css div{
+                    height: 20%;
+                    font-family: 'Inconsolata', monospace;
+                    font-size: 25px;
+            }
+            .css img{
+                    width: 45%;
+                    height: 80%;
+            }
+            .css p{
+                font-size: 20px;
+                
+            }
+        .github{
+            width: 25%;
+            height: 160px;
+    
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .github div{
+                height: 20%;
+                font-family: 'Inconsolata', monospace;
+                font-size: 25px;
+            }
+            .github img{
+                width: 45%;
+                height: 80%;
+            }
+            .github p{
+                font-size: 20px;
+                
+            }
+    
+    .proyectos{
+        height: 300px;
+        font-size: 30px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;        
+    }
+        .proyectos header{
+            color:var(--myColorVar5);
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .cajita{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .pro1{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .proyectos a{
+            text-decoration: none;
+            font-family: 'Inconsolata', monospace;
+            font-size: 25px;
+            color:var(--myColorVar5);
+            font-weight: bold;
+        }
+    .form{
+        height: 450px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .contact{
+            font-size: 40px;
+            text-align: center;
+            color:var(--myColorVar5)
+            
+        }
+        .cajitas{
+            width: 80%;
+            height: 80%;
+
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;                
+        }
+            .datos{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+                .datos div p{
+                    font-size: 25px;
+                }
+                .datos input{
+                    height: 30px;
+                    width: 300px;
+                    text-align: center;
+                    font-size: 20px;                 
+                    
+                }
+        .mensaje{
+            font-size: 25px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .mensaje input{
+                width: 500px;
+                height: 150px;
+            }
+        .boton{
+            display:flex;
+            justify-content: center;
+
+        }
+        .infor{
+            width: 150px;
+            height: 50px;
+            background-color:#a3c1ad;
+            font-weight: bold;
+        }
+ 
+footer{
+    height: 50px;
+    background-color: var(--myColorVar);
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+    footer div{        
+        font-size: 20px;       
+    }
+    footer a{
+        font-size: 20px;
+        text-decoration: none;
+        color:#317873
+    }
